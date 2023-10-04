@@ -1,0 +1,141 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #9a1b9e;
+    color: rgb(255, 254, 254);
+    padding: 1rem;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.home {
+    background-color: #3498db;
+    color: white;
+}
+
+.sobre {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.projetos {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.curriculo {
+    background-color: #ddf312;
+    color: white;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    border: 1px solid #f55f08;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+.project-button:hover {
+    background-color: #2980b9;
+}
+
+
+.profile-image {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 6px solid #f38e0a; 
+    box-shadow: 0 0 10px rgba(15, 15, 15, 0.1); 
+}
+
+h2 + p {
+    text-align: justify;
+}
+
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+
+}
+
+.icon{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    margin: 3px;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+
+.icon i{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: 22px;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #e77d03;
+    color:rgb(7, 5, 8) ;
+}
+
+.icon span a{
+    list-style: none;
+    float: right;
+    margin-right: 23px;
+    margin-right: 100;
+    font-size: 17;
+    line-height: 35px;
+}
+
+.icon:hover{
+    width: 125px;
+    background-color: #f78a0d;
+    border-radius: 20px;
+}
